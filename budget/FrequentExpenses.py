@@ -1,11 +1,11 @@
-import pandas as pd
+#import pandas as pd
 import matplotlib.pyplot as plt
 import collections
 from . import Expense
 
-data = pd.read_csv(r'C\Users\Msi\Documents\GitHub\python-collections-budget\budget\spending_data.csv')
+#data = pd.read_csv(r'C\Users\Msi\Documents\GitHub\python-collections-budget\budget\spending_data.csv')
 expenses = Expense.Expenses()
-expenses.read_expenses(data)
+expenses.read_expenses(data/spending_data.csv)
 
 spending_categories = []
 for expense in expenses.list:
